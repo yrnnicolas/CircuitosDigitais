@@ -79,7 +79,7 @@ Este repositório mostra o passo a passo de como construir um computador a parti
 
 - **Autor:** Nicolas Mendonça Fagundes
 - **GitHub:** [@yrnnicolas](https://github.com/yrnnicolas)
-- **Curso:** Instituto de Informática — Universidade Federal do Rio Grande do Sul (UFRGS)
+- **Curso:** Ciência da Computação - Instituto de Informática — Universidade Federal do Rio Grande do Sul (UFRGS)
 
 ---
 
