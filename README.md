@@ -10,6 +10,8 @@ Repositório com os projetos práticos e experimentais desenvolvidos na discipli
 
 O repositório documenta a trajetória construtiva da computação digital: partindo de blocos combinacionais elementares (como somar dois bits individuais) até a síntese e simulação de um microprocessador programável completo: o **Computador Neander**.
 
+Arquivos README gerados a partir de Inteligência Artificial!
+
 ---
 
 ## 💡 Para Pessoas Leigas: O que você encontra aqui?
