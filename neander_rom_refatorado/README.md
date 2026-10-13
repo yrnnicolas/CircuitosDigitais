@@ -1,5 +1,5 @@
 # Neander ROM refatorado
-
+A ideia desta Versão do Neander era ver como ele se comportava com alterações feitas por Inteligência Artifícial.
 Versao em Verilog com o modulo principal `neander` preservado.
 
 Alteracoes desta versao:
