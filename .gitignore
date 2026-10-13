@@ -1,0 +1,54 @@
+# ==============================================================================
+# Gitignore para Projetos Altera / Intel Quartus II, ModelSim & Verilog
+# Disciplina: Circuitos Digitais - INF / UFRGS
+# ==============================================================================
+
+# --- Arquivos de Workspace e Sessão do Usuário ---
+*.qws
+*.qws.bak
+
+# --- Arquivos de Backup do Quartus e Editores ---
+*.bak
+*.bak.*
+*~
+*.orig
+
+# --- Diretórios de Banco de Dados e Compilação do Quartus ---
+# (Pastas geradas automaticamente na compilação do fluxo FPGA)
+**/db/
+**/incremental_db/
+**/hc_output/
+**/greybox_tmp/
+
+# --- Arquivos de Compilação e Relatórios Secundários ---
+*.done
+*.smsg
+*.jdi
+*.pin
+*.ipinfo
+
+# --- Saídas de Simulação do ModelSim / NativeLink ---
+**/simulation/modelsim/*.sdo
+**/simulation/modelsim/*.vho
+**/simulation/modelsim/*.vo
+**/simulation/modelsim/*.xrf
+**/simulation/modelsim/*.sft
+**/simulation/modelsim/work/
+transcript
+vsim.wlf
+*.wlf
+
+# --- Arquivos de Sistema Operacional ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# --- Ambientes de Desenvolvimento e Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
