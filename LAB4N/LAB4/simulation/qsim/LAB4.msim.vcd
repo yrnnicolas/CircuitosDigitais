@@ -1,0 +1,469 @@
+$comment
+	File created using the following command:
+		vcd file LAB4.msim.vcd -direction
+$end
+$date
+	Thu Apr 17 18:10:18 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module DECODER416_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var wire 1 % D0 $end
+$var wire 1 & D1 $end
+$var wire 1 ' D2 $end
+$var wire 1 ( D3 $end
+$var wire 1 ) D4 $end
+$var wire 1 * D5 $end
+$var wire 1 + D6 $end
+$var wire 1 , D7 $end
+$var wire 1 - D8 $end
+$var wire 1 . D9 $end
+$var wire 1 / D10 $end
+$var wire 1 0 D11 $end
+$var wire 1 1 D12 $end
+$var wire 1 2 D13 $end
+$var wire 1 3 D14 $end
+$var wire 1 4 D15 $end
+$scope module i1 $end
+$var wire 1 5 gnd $end
+$var wire 1 6 vcc $end
+$var wire 1 7 unknown $end
+$var tri1 1 8 devclrn $end
+$var tri1 1 9 devpor $end
+$var tri1 1 : devoe $end
+$var wire 1 ; D15~output_o $end
+$var wire 1 < D14~output_o $end
+$var wire 1 = D13~output_o $end
+$var wire 1 > D12~output_o $end
+$var wire 1 ? D11~output_o $end
+$var wire 1 @ D10~output_o $end
+$var wire 1 A D9~output_o $end
+$var wire 1 B D8~output_o $end
+$var wire 1 C D7~output_o $end
+$var wire 1 D D6~output_o $end
+$var wire 1 E D5~output_o $end
+$var wire 1 F D4~output_o $end
+$var wire 1 G D3~output_o $end
+$var wire 1 H D2~output_o $end
+$var wire 1 I D1~output_o $end
+$var wire 1 J D0~output_o $end
+$var wire 1 K C~input_o $end
+$var wire 1 L A~input_o $end
+$var wire 1 M D~input_o $end
+$var wire 1 N B~input_o $end
+$var wire 1 O inst9~combout $end
+$var wire 1 P inst8~0_combout $end
+$var wire 1 Q inst13~0_combout $end
+$var wire 1 R inst12~0_combout $end
+$var wire 1 S inst10~0_combout $end
+$var wire 1 T inst17~0_combout $end
+$var wire 1 U inst16~0_combout $end
+$var wire 1 V inst5~0_combout $end
+$var wire 1 W inst15~0_combout $end
+$var wire 1 X inst4~0_combout $end
+$var wire 1 Y inst3~0_combout $end
+$var wire 1 Z inst14~0_combout $end
+$var wire 1 [ inst2~0_combout $end
+$var wire 1 \ inst6~0_combout $end
+$var wire 1 ] inst11~0_combout $end
+$var wire 1 ^ instance9~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+x%
+x&
+x'
+x(
+x)
+x*
+x+
+x,
+x-
+x.
+x/
+x0
+x1
+x2
+x3
+x4
+05
+16
+x7
+18
+19
+1:
+x;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+xE
+xF
+xG
+xH
+xI
+xJ
+xK
+0L
+xM
+0N
+xO
+xP
+xQ
+xR
+xS
+xT
+xU
+xV
+xW
+xX
+xY
+xZ
+x[
+x\
+x]
+x^
+$end
+#1765
+0X
+#1990
+0[
+0^
+#1998
+0\
+#2003
+0]
+#2016
+0T
+#2024
+0V
+#2030
+0U
+#2032
+0S
+#2033
+0Z
+#2039
+0W
+#2050
+0Y
+#4368
+0I
+0&
+#4389
+0A
+0.
+#4393
+0C
+0,
+#4470
+0D
+0+
+#4506
+0J
+0%
+#4566
+0H
+0'
+#4587
+0F
+0)
+#4625
+0?
+00
+#4650
+0@
+0/
+#4711
+0B
+0-
+#4800
+0G
+0(
+#4950
+0E
+0*
+#40000
+1!
+#40690
+1L
+#42276
+0Q
+#42297
+xX
+#42542
+xZ
+#42548
+xY
+#42550
+0P
+#42559
+1O
+#42567
+xW
+#42583
+0R
+#44914
+0;
+04
+#44926
+xC
+x,
+#44971
+0=
+02
+#44988
+xD
+x+
+#45091
+xF
+x)
+#45270
+0>
+01
+#45449
+xE
+x*
+#46460
+0<
+03
+#80000
+0!
+#80852
+0L
+#82617
+0X
+#82621
+xQ
+#82875
+xP
+#82885
+0Z
+#82891
+0W
+#82892
+xO
+#82902
+0Y
+#82908
+xR
+#85237
+x;
+x4
+#85245
+0C
+0,
+#85294
+x=
+x2
+#85322
+0D
+0+
+#85439
+0F
+0)
+#85570
+x>
+x1
+#85802
+0E
+0*
+#86696
+x<
+x3
+#100000
+1!
+#100690
+1L
+#102276
+0Q
+#102297
+xX
+#102542
+xZ
+#102548
+xY
+#102550
+0P
+#102559
+1O
+#102567
+xW
+#102583
+0R
+#104914
+0;
+04
+#104926
+xC
+x,
+#104971
+0=
+02
+#104988
+xD
+x+
+#105091
+xF
+x)
+#105270
+0>
+01
+#105449
+xE
+x*
+#106460
+0<
+03
+#140000
+0!
+#140852
+0L
+#142617
+0X
+#142621
+xQ
+#142875
+xP
+#142885
+0Z
+#142891
+0W
+#142892
+xO
+#142902
+0Y
+#142908
+xR
+#145237
+x;
+x4
+#145245
+0C
+0,
+#145294
+x=
+x2
+#145322
+0D
+0+
+#145439
+0F
+0)
+#145570
+x>
+x1
+#145802
+0E
+0*
+#146696
+x<
+x3
+#170000
+1"
+#170680
+1N
+#172549
+xV
+#172551
+xT
+#172553
+0P
+#172555
+0R
+#172563
+xU
+#172565
+1O
+#172569
+xS
+#172854
+0Q
+#174920
+0;
+04
+#174925
+xA
+x.
+#175132
+x?
+x0
+#175195
+x@
+x/
+#175222
+xB
+x-
+#175242
+0>
+01
+#175549
+0=
+02
+#176463
+0<
+03
+#220000
+0"
+#220842
+0N
+#222858
+0T
+#222866
+0V
+#222871
+xO
+#222872
+0U
+#222873
+xP
+#222874
+0S
+#222881
+xR
+#223172
+xQ
+#225216
+x;
+x4
+#225231
+0A
+0.
+#225467
+0?
+00
+#225492
+0@
+0/
+#225543
+x>
+x1
+#225553
+0B
+0-
+#225845
+x=
+x2
+#226694
+x<
+x3
+#1000000

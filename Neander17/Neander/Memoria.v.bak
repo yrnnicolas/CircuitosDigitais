@@ -1,0 +1,17 @@
+module Memoria (
+    input clk,
+    input [7:0] addr,      // endereço de leitura/escrita
+    input [7:0] data_in,   // dado para escrever
+    input we,              // write enable
+    output reg [7:0] data_out
+);
+
+reg [7:0] mem [0:255];    // memória de 256x8 bits
+
+always @(posedge clk) begin
+    if (we)
+        mem[addr] <= data_in; // escreve na memória
+    data_out <= mem[addr];    // lê da memória
+end
+
+endmodule

@@ -1,0 +1,125 @@
+|sumsub8
+Cout <= Full_adder:inst8.Cout
+A[0] => Full_adder:inst.A
+A[1] => Full_adder:inst2.A
+A[2] => Full_adder:inst3.A
+A[3] => Full_adder:inst4.A
+A[4] => Full_adder:inst5.A
+A[5] => Full_adder:inst6.A
+A[6] => Full_adder:inst7.A
+A[7] => Full_adder:inst8.A
+B[0] => inst13.IN0
+B[1] => inst14.IN0
+B[2] => ~NO_FANOUT~
+B[3] => inst16.IN0
+B[4] => inst17.IN0
+B[5] => inst18.IN0
+B[6] => inst19.IN0
+B[7] => inst20.IN0
+M => inst20.IN1
+M => inst19.IN1
+M => inst18.IN1
+M => inst17.IN1
+M => inst16.IN1
+M => inst14.IN1
+M => inst13.IN1
+M => Full_adder:inst.Cin
+S[0] <= Full_adder:inst.S
+S[1] <= Full_adder:inst2.S
+S[2] <= Full_adder:inst3.S
+S[3] <= Full_adder:inst4.S
+S[4] <= Full_adder:inst5.S
+S[5] <= Full_adder:inst6.S
+S[6] <= Full_adder:inst7.S
+S[7] <= Full_adder:inst8.S
+Cin => ~NO_FANOUT~
+
+
+|sumsub8|Full_adder:inst8
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst7
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst6
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst5
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst4
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst2
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumsub8|Full_adder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

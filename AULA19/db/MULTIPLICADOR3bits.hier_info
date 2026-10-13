@@ -1,0 +1,164 @@
+|MULTIPLICADOR3bits
+Z[0] <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= HA:inst.S
+Z[2] <= HA:inst2.S
+Z[3] <= HA:inst3.S
+Z[4] <= FA:inst10.S
+Z[5] <= FA:inst11.S
+Z[6] <= FA:inst12.S
+Z[7] <= FA:inst12.Cout
+X[0] => HA:inst.A
+X[0] => inst24.IN0
+X[0] => FA:inst4.A
+X[0] => inst20.IN1
+X[0] => FA:inst5.A
+X[0] => inst16.IN0
+X[0] => inst25.IN0
+X[1] => inst23.IN0
+X[1] => inst19.IN1
+X[1] => inst15.IN0
+X[2] => inst22.IN0
+X[2] => inst18.IN1
+X[2] => inst14.IN0
+X[3] => inst21.IN0
+X[3] => inst17.IN1
+X[3] => inst13.IN0
+Y[0] => inst25.IN1
+Y[1] => inst24.IN1
+Y[1] => inst23.IN1
+Y[1] => inst22.IN1
+Y[1] => inst21.IN1
+Y[2] => inst20.IN0
+Y[2] => inst19.IN0
+Y[2] => inst18.IN0
+Y[2] => inst17.IN0
+Y[3] => inst16.IN1
+Y[3] => inst15.IN1
+Y[3] => inst14.IN1
+Y[3] => inst13.IN1
+
+
+|MULTIPLICADOR3bits|HA:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|HA:inst2
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst4
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|HA:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst7
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst5
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst10
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|HA:inst6
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst11
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst9
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MULTIPLICADOR3bits|FA:inst12
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN1
+B => inst.IN1
+B => inst3.IN0
+Cin => inst1.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

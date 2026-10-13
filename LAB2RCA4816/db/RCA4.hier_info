@@ -1,0 +1,151 @@
+|RCA8
+Cout <= RCA4:inst2.Cout
+Cin => RCA4:inst.Cin
+A[0] => RCA4:inst.A[3]
+A[1] => RCA4:inst.A[2]
+A[2] => RCA4:inst.A[1]
+A[3] => RCA4:inst.A[0]
+A[4] => RCA4:inst2.A[3]
+A[5] => RCA4:inst2.A[2]
+A[6] => RCA4:inst2.A[1]
+A[7] => RCA4:inst2.A[0]
+B[0] => RCA4:inst.B[3]
+B[1] => RCA4:inst.B[2]
+B[2] => RCA4:inst.B[1]
+B[3] => RCA4:inst.B[0]
+B[4] => RCA4:inst2.B[3]
+B[5] => RCA4:inst2.B[2]
+B[6] => RCA4:inst2.B[1]
+B[7] => RCA4:inst2.B[0]
+S[0] <= RCA4:inst.S[3]
+S[1] <= RCA4:inst.S[2]
+S[2] <= RCA4:inst.S[1]
+S[3] <= RCA4:inst.S[0]
+S[4] <= RCA4:inst2.S[3]
+S[5] <= RCA4:inst2.S[2]
+S[6] <= RCA4:inst2.S[1]
+S[7] <= RCA4:inst2.S[0]
+
+
+|RCA8|RCA4:inst2
+Cout <= <GND>
+S[0] <= Full_adder:inst3.S
+S[1] <= Full_adder:inst.S
+S[2] <= Full_adder:inst1.S
+S[3] <= Full_adder:inst2.S
+A[0] => Full_adder:inst3.A
+A[1] => Full_adder:inst.A
+A[2] => Full_adder:inst1.B
+A[3] => Full_adder:inst2.A
+B[0] => Full_adder:inst3.B
+B[1] => Full_adder:inst.B
+B[2] => Full_adder:inst1.A
+B[3] => Full_adder:inst2.B
+Cin => Full_adder:inst3.Cin
+
+
+|RCA8|RCA4:inst2|Full_adder:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst2|Full_adder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst2|Full_adder:inst1
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst2|Full_adder:inst2
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst
+Cout <= <GND>
+S[0] <= Full_adder:inst3.S
+S[1] <= Full_adder:inst.S
+S[2] <= Full_adder:inst1.S
+S[3] <= Full_adder:inst2.S
+A[0] => Full_adder:inst3.A
+A[1] => Full_adder:inst.A
+A[2] => Full_adder:inst1.B
+A[3] => Full_adder:inst2.A
+B[0] => Full_adder:inst3.B
+B[1] => Full_adder:inst.B
+B[2] => Full_adder:inst1.A
+B[3] => Full_adder:inst2.B
+Cin => Full_adder:inst3.Cin
+
+
+|RCA8|RCA4:inst|Full_adder:inst3
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst|Full_adder:inst
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst|Full_adder:inst1
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RCA8|RCA4:inst|Full_adder:inst2
+S <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst1.IN0
+A => inst3.IN1
+B => inst1.IN1
+B => inst3.IN0
+Cin => inst.IN1
+Cin => inst2.IN0
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

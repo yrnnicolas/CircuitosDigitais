@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'run_debug'
+Slack : -2.970
+TNS   : -96.425
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -2.226
+TNS   : -35.392
+
+Type  : Slow 1200mV 85C Model Hold 'run_debug'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'run_debug'
+Slack : -3.000
+TNS   : -44.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -29.000
+
+Type  : Slow 1200mV 0C Model Setup 'run_debug'
+Slack : -2.598
+TNS   : -83.341
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -1.888
+TNS   : -28.565
+
+Type  : Slow 1200mV 0C Model Hold 'run_debug'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'run_debug'
+Slack : -3.000
+TNS   : -44.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -29.000
+
+Type  : Fast 1200mV 0C Model Setup 'run_debug'
+Slack : -1.222
+TNS   : -36.477
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -0.825
+TNS   : -9.414
+
+Type  : Fast 1200mV 0C Model Hold 'run_debug'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'run_debug'
+Slack : -3.000
+TNS   : -50.205
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -30.559
+
+------------------------------------------------------------

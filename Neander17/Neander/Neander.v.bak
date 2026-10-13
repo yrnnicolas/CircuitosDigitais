@@ -1,0 +1,72 @@
+module Neander 
+(
+	input clk,
+	input rst,
+	
+	output [7:0]pc,
+	output [7:0]acc,
+	output N,Z
+);
+
+wire en_acc;
+wire en_nz;
+
+wire n_i;
+wire z_i;
+
+wire n_o;
+wire z_o;
+
+wire [7:0]ula_o;
+wire [7:0]acc_o;
+
+
+wire [7:0]mem_o;
+wire [2:0]ula_sel;
+
+ULA8 ulaInstancia(
+	.a(acc_o),
+	.b(mem_o),
+	.Sel(ula_sel),
+	.S(ula_o),
+	.N(n_i),
+	.Z(z_i)
+);
+
+REG8 #(.WIDTH(8)) acumuladorInstancia(
+
+	.clk(clk),
+	.rst(rst),
+	.ena(en_acc),
+	.data_i(ula_o),
+	
+	.data_o(acc_o)
+);
+
+assign acc = acc_o;
+
+
+REG8 #(.WIDTH(1)) N_REG(
+
+	.clk(clk),
+	.rst(rst),
+	.ena(en_nz),
+	.data_i(n_i),
+	
+	.data_o(n_o)
+);
+
+REG8 #(.WIDTH(1)) Z_REG(
+
+	.clk(clk),
+	.rst(rst),
+	.ena(en_nz),
+	.data_i(z_i),
+	
+	.data_o(z_o)
+);
+
+
+endmodule
+
+

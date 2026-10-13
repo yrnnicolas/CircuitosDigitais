@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Henri\Documents\Arq.II\LAB5\simulation\qsim
+vDecodificador_Display_7
+Z1 Ij2VBAkjUzgmIHE?9@fOLV1
+Z2 VXzzAZJAYFj:BHfUP<<@e`3
+Z3 dC:\Users\Henri\OneDrive\Latim\CD\LAB5\simulation\qsim
+Z4 w1746978109
+Z5 8ULA.vo
+Z6 FULA.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ULA.vo|
+Z9 o-work work -O0
+Z10 n@decodificador_@display_7
+!i10b 1
+Z11 !s100 j6z85Z1Q;aVno_Uj??i6S3
+!s85 0
+Z12 !s108 1746978110.167000
+Z13 !s107 ULA.vo|
+!s101 -O0
+vDecodificador_Display_7_vlg_check_tst
+!i10b 1
+Z14 !s100 U1fB^hA[IA2:Dbc5[UY440
+Z15 ITz;@I`>IWnfmOKjlWg:;g1
+Z16 Vgmd;CaFin8Ua?cX[=2R`A3
+R3
+Z17 w1746978108
+Z18 8Waveform_decod.vwf.vt
+Z19 FWaveform_decod.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1746978110.324000
+Z21 !s107 Waveform_decod.vwf.vt|
+Z22 !s90 -work|work|Waveform_decod.vwf.vt|
+!s101 -O0
+R9
+Z23 n@decodificador_@display_7_vlg_check_tst
+vDecodificador_Display_7_vlg_sample_tst
+!i10b 1
+Z24 !s100 `ZFjV=>d4JHM=E4PQjb3Z1
+Z25 IfaW:PoMB;]aH4>Wl8K5R21
+Z26 Vn66<d]z[TMmH6V`Ng5a_^0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@decodificador_@display_7_vlg_sample_tst
+vDecodificador_Display_7_vlg_vec_tst
+!i10b 1
+Z28 !s100 MoG^Y8cC4D`3U_lIiTOTb3
+Z29 I2599azJ0IfRII40;E[F4Z3
+Z30 VOLmB=;4koEChf]JN7COgG0
+R3
+R17
+R18
+R19
+Z31 L0 314
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@decodificador_@display_7_vlg_vec_tst

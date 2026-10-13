@@ -1,0 +1,13 @@
+﻿Notas do LAB 2 - RCA4/8/16 - Circuitos Digitais.
+
+RCA 16:
+CONSUMO DA ÁREA DA FPGA(Pinos + Logic Elements): 75
+ATRASO CRÍTICO(Slow Mode): Cin - 6.950
+
+RCA 8:
+CONSUMO DA ÁREA DA FPGA(Pinos + Logic Elements): 39
+ATRASO CRÍTICO(Slow Mode): B[7] - 5.203
+
+RCA 4:
+CONSUMO DA ÁREA DA FPGA(Pinos + Logic Elements): 21
+ATRASO CRÍTICO(Slow Mode): A[3] 5.915

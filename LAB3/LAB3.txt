@@ -1,0 +1,2 @@
+Consumo de área da FPGA (Pinos + Logic Elements): 45
+Atraso crítico (Slow mode, 85C): 5.436 - A[2] / 8.931 B[0]
